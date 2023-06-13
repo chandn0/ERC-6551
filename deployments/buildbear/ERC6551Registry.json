@@ -1,0 +1,185 @@
+{
+  "address": "0xa37D1Ecd3b641F8BFB4045190bA09c6f62F68dfB",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "InitializationFailed",
+      "type": "error"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "account",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "implementation",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "chainId",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "tokenContract",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "tokenId",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "salt",
+          "type": "uint256"
+        }
+      ],
+      "name": "AccountCreated",
+      "type": "event"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "implementation",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "chainId",
+          "type": "uint256"
+        },
+        {
+          "internalType": "address",
+          "name": "tokenContract",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "tokenId",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "salt",
+          "type": "uint256"
+        }
+      ],
+      "name": "account",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "implementation",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "chainId",
+          "type": "uint256"
+        },
+        {
+          "internalType": "address",
+          "name": "tokenContract",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "tokenId",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "salt",
+          "type": "uint256"
+        },
+        {
+          "internalType": "bytes",
+          "name": "initData",
+          "type": "bytes"
+        }
+      ],
+      "name": "createAccount",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0x060f76ef51f4ffa9bbf89a0ffe9fdf1ab3dd2ab39d3d4bc2e9b07888160fdb69",
+  "receipt": {
+    "to": null,
+    "from": "0x92764FD880498A0c95292Db2422EC6D00e710551",
+    "contractAddress": "0xa37D1Ecd3b641F8BFB4045190bA09c6f62F68dfB",
+    "transactionIndex": 0,
+    "gasUsed": "358000",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0xe150398520e5557e880b22c5ca5f063903f1d2a1ccd567964ef56de1cbe31712",
+    "transactionHash": "0x060f76ef51f4ffa9bbf89a0ffe9fdf1ab3dd2ab39d3d4bc2e9b07888160fdb69",
+    "logs": [],
+    "blockNumber": 17442408,
+    "cumulativeGasUsed": "358000",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [],
+  "numDeployments": 1,
+  "solcInputHash": "2a4a773b7ef4014772b5bfe17c959b3b",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.16+commit.07a7930e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"InitializationFailed\",\"type\":\"error\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"address\",\"name\":\"implementation\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"chainId\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"address\",\"name\":\"tokenContract\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"tokenId\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"salt\",\"type\":\"uint256\"}],\"name\":\"AccountCreated\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"implementation\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"chainId\",\"type\":\"uint256\"},{\"internalType\":\"address\",\"name\":\"tokenContract\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"tokenId\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"salt\",\"type\":\"uint256\"}],\"name\":\"account\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"implementation\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"chainId\",\"type\":\"uint256\"},{\"internalType\":\"address\",\"name\":\"tokenContract\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"tokenId\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"salt\",\"type\":\"uint256\"},{\"internalType\":\"bytes\",\"name\":\"initData\",\"type\":\"bytes\"}],\"name\":\"createAccount\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{\"account(address,uint256,address,uint256,uint256)\":{\"details\":\"Returns the computed address of a token bound account\",\"returns\":{\"_0\":\"The computed address of the account\"}},\"createAccount(address,uint256,address,uint256,uint256,bytes)\":{\"details\":\"Creates a token bound account for an ERC-721 token. If account has already been created, returns the account address without calling create2. If initData is not empty and account has not yet been created, calls account with provided initData after creation. Emits AccountCreated event.\",\"returns\":{\"_0\":\"the address of the account\"}}},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/ERC6551Registry.sol\":\"ERC6551Registry\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/ERC6551Registry.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\npragma solidity ^0.8.13;\\n\\nimport \\\"../node_modules/@openzeppelin/contracts/utils/Create2.sol\\\";\\nimport \\\"./interface/IERC6551Registry.sol\\\";\\n\\ncontract ERC6551Registry is IERC6551Registry {\\n    error InitializationFailed();\\n\\n    function createAccount(\\n        address implementation,\\n        uint256 chainId,\\n        address tokenContract,\\n        uint256 tokenId,\\n        uint256 salt,\\n        bytes calldata initData\\n    ) external returns (address) {\\n        bytes memory code = _creationCode(\\n            implementation,\\n            chainId,\\n            tokenContract,\\n            tokenId,\\n            salt\\n        );\\n\\n        address _account = Create2.computeAddress(\\n            bytes32(salt),\\n            keccak256(code)\\n        );\\n\\n        if (_account.code.length != 0) return _account;\\n\\n        _account = Create2.deploy(0, bytes32(salt), code);\\n\\n        if (initData.length != 0) {\\n            (bool success, ) = _account.call(initData);\\n            if (!success) revert InitializationFailed();\\n        }\\n\\n        emit AccountCreated(\\n            _account,\\n            implementation,\\n            chainId,\\n            tokenContract,\\n            tokenId,\\n            salt\\n        );\\n\\n        return _account;\\n    }\\n\\n    function account(\\n        address implementation,\\n        uint256 chainId,\\n        address tokenContract,\\n        uint256 tokenId,\\n        uint256 salt\\n    ) external view returns (address) {\\n        bytes32 bytecodeHash = keccak256(\\n            _creationCode(implementation, chainId, tokenContract, tokenId, salt)\\n        );\\n\\n        return Create2.computeAddress(bytes32(salt), bytecodeHash);\\n    }\\n\\n    function _creationCode(\\n        address implementation_,\\n        uint256 chainId_,\\n        address tokenContract_,\\n        uint256 tokenId_,\\n        uint256 salt_\\n    ) internal pure returns (bytes memory) {\\n        return\\n            abi.encodePacked(\\n                hex\\\"3d60ad80600a3d3981f3363d3d373d3d3d363d73\\\",\\n                implementation_,\\n                hex\\\"5af43d82803e903d91602b57fd5bf3\\\",\\n                abi.encode(salt_, chainId_, tokenContract_, tokenId_)\\n            );\\n    }\\n}\\n\",\"keccak256\":\"0xf7e90dae19499c9f7bd7a7c5a4a32fe3e702bee85a9a5ac43a527f83a282e875\",\"license\":\"MIT\"},\"contracts/interface/IERC6551Registry.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\npragma solidity ^0.8.13;\\n\\ninterface IERC6551Registry {\\n    /// @dev The registry SHALL emit the AccountCreated event upon successful account creation\\n    event AccountCreated(\\n        address account,\\n        address implementation,\\n        uint256 chainId,\\n        address tokenContract,\\n        uint256 tokenId,\\n        uint256 salt\\n    );\\n\\n    /// @dev Creates a token bound account for an ERC-721 token.\\n    ///\\n    /// If account has already been created, returns the account address without calling create2.\\n    ///\\n    /// If initData is not empty and account has not yet been created, calls account with\\n    /// provided initData after creation.\\n    ///\\n    /// Emits AccountCreated event.\\n    ///\\n    /// @return the address of the account\\n    function createAccount(\\n        address implementation,\\n        uint256 chainId,\\n        address tokenContract,\\n        uint256 tokenId,\\n        uint256 salt,\\n        bytes calldata initData\\n    ) external returns (address);\\n\\n    /// @dev Returns the computed address of a token bound account\\n    ///\\n    /// @return The computed address of the account\\n    function account(\\n        address implementation,\\n        uint256 chainId,\\n        address tokenContract,\\n        uint256 tokenId,\\n        uint256 salt\\n    ) external view returns (address);\\n}\\n\",\"keccak256\":\"0x7a21b63e994e9c5904371c5431100f12f80b1eade9da2e99555df4af50457d3f\",\"license\":\"MIT\"},\"node_modules/@openzeppelin/contracts/utils/Create2.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\n// OpenZeppelin Contracts (last updated v4.9.0) (utils/Create2.sol)\\n\\npragma solidity ^0.8.0;\\n\\n/**\\n * @dev Helper to make usage of the `CREATE2` EVM opcode easier and safer.\\n * `CREATE2` can be used to compute in advance the address where a smart\\n * contract will be deployed, which allows for interesting new mechanisms known\\n * as 'counterfactual interactions'.\\n *\\n * See the https://eips.ethereum.org/EIPS/eip-1014#motivation[EIP] for more\\n * information.\\n */\\nlibrary Create2 {\\n    /**\\n     * @dev Deploys a contract using `CREATE2`. The address where the contract\\n     * will be deployed can be known in advance via {computeAddress}.\\n     *\\n     * The bytecode for a contract can be obtained from Solidity with\\n     * `type(contractName).creationCode`.\\n     *\\n     * Requirements:\\n     *\\n     * - `bytecode` must not be empty.\\n     * - `salt` must have not been used for `bytecode` already.\\n     * - the factory must have a balance of at least `amount`.\\n     * - if `amount` is non-zero, `bytecode` must have a `payable` constructor.\\n     */\\n    function deploy(uint256 amount, bytes32 salt, bytes memory bytecode) internal returns (address addr) {\\n        require(address(this).balance >= amount, \\\"Create2: insufficient balance\\\");\\n        require(bytecode.length != 0, \\\"Create2: bytecode length is zero\\\");\\n        /// @solidity memory-safe-assembly\\n        assembly {\\n            addr := create2(amount, add(bytecode, 0x20), mload(bytecode), salt)\\n        }\\n        require(addr != address(0), \\\"Create2: Failed on deploy\\\");\\n    }\\n\\n    /**\\n     * @dev Returns the address where a contract will be stored if deployed via {deploy}. Any change in the\\n     * `bytecodeHash` or `salt` will result in a new destination address.\\n     */\\n    function computeAddress(bytes32 salt, bytes32 bytecodeHash) internal view returns (address) {\\n        return computeAddress(salt, bytecodeHash, address(this));\\n    }\\n\\n    /**\\n     * @dev Returns the address where a contract will be stored if deployed via {deploy} from a contract located at\\n     * `deployer`. If `deployer` is this contract's address, returns the same value as {computeAddress}.\\n     */\\n    function computeAddress(bytes32 salt, bytes32 bytecodeHash, address deployer) internal pure returns (address addr) {\\n        /// @solidity memory-safe-assembly\\n        assembly {\\n            let ptr := mload(0x40) // Get free memory pointer\\n\\n            // |                   | \\u2193 ptr ...  \\u2193 ptr + 0x0B (start) ...  \\u2193 ptr + 0x20 ...  \\u2193 ptr + 0x40 ...   |\\n            // |-------------------|---------------------------------------------------------------------------|\\n            // | bytecodeHash      |                                                        CCCCCCCCCCCCC...CC |\\n            // | salt              |                                      BBBBBBBBBBBBB...BB                   |\\n            // | deployer          | 000000...0000AAAAAAAAAAAAAAAAAAA...AA                                     |\\n            // | 0xFF              |            FF                                                             |\\n            // |-------------------|---------------------------------------------------------------------------|\\n            // | memory            | 000000...00FFAAAAAAAAAAAAAAAAAAA...AABBBBBBBBBBBBB...BBCCCCCCCCCCCCC...CC |\\n            // | keccak(start, 85) |            \\u2191\\u2191\\u2191\\u2191\\u2191\\u2191\\u2191\\u2191\\u2191\\u2191\\u2191\\u2191\\u2191\\u2191\\u2191\\u2191\\u2191\\u2191\\u2191\\u2191\\u2191\\u2191\\u2191\\u2191\\u2191\\u2191\\u2191\\u2191\\u2191\\u2191\\u2191\\u2191\\u2191\\u2191\\u2191\\u2191\\u2191\\u2191\\u2191\\u2191\\u2191\\u2191\\u2191\\u2191\\u2191\\u2191\\u2191\\u2191\\u2191\\u2191\\u2191\\u2191\\u2191\\u2191\\u2191\\u2191\\u2191\\u2191\\u2191\\u2191\\u2191\\u2191 |\\n\\n            mstore(add(ptr, 0x40), bytecodeHash)\\n            mstore(add(ptr, 0x20), salt)\\n            mstore(ptr, deployer) // Right-aligned with 12 preceding garbage bytes\\n            let start := add(ptr, 0x0b) // The hashed data starts at the final garbage byte which we will set to 0xff\\n            mstore8(start, 0xff)\\n            addr := keccak256(start, 85)\\n        }\\n    }\\n}\\n\",\"keccak256\":\"0x6e00f269073ffc4350e56b7e8153c9092d5f70bfba423299990514183101ef89\",\"license\":\"MIT\"}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b50610584806100206000396000f3fe608060405234801561001057600080fd5b50600436106100365760003560e01c80635e9bc5361461003b578063da7323b31461006a575b600080fd5b61004e6100493660046103be565b61007d565b6040516001600160a01b03909116815260200160405180910390f35b61004e61007836600461040c565b6100ac565b60008061008d87878787876101f2565b805160209091012090506100a1838261025b565b979650505050505050565b6000806100bc89898989896101f2565b905060006100d48660001b838051906020012061025b565b90506001600160a01b0381163b156100ef5791506100a19050565b6100fb6000878461026f565b90508315610185576000816001600160a01b0316868660405161011f9291906104bd565b6000604051808303816000865af19150503d806000811461015c576040519150601f19603f3d011682016040523d82523d6000602084013e610161565b606091505b505090508061018357604051630337323560e31b815260040160405180910390fd5b505b604080516001600160a01b0383811682528c811660208301528183018c90528a1660608201526080810189905260a0810188905290517f07fba7bba1191da7ee1155dcfa0030701c9c9a9cc34a93b991fc6fd0c9268d8f9181900360c00190a19998505050505050505050565b60408051602081018390529081018590526001600160a01b0384166060828101919091526080820184905290869060a00160408051601f198184030181529082905261024192916020016104cd565b604051602081830303815290604052905095945050505050565b6000610268838330610378565b9392505050565b6000834710156102c65760405162461bcd60e51b815260206004820152601d60248201527f437265617465323a20696e73756666696369656e742062616c616e636500000060448201526064015b60405180910390fd5b81516000036103175760405162461bcd60e51b815260206004820181905260248201527f437265617465323a2062797465636f6465206c656e677468206973207a65726f60448201526064016102bd565b8282516020840186f590506001600160a01b0381166102685760405162461bcd60e51b815260206004820152601960248201527f437265617465323a204661696c6564206f6e206465706c6f790000000000000060448201526064016102bd565b6000604051836040820152846020820152828152600b8101905060ff815360559020949350505050565b80356001600160a01b03811681146103b957600080fd5b919050565b600080600080600060a086880312156103d657600080fd5b6103df866103a2565b9450602086013593506103f4604087016103a2565b94979396509394606081013594506080013592915050565b600080600080600080600060c0888a03121561042757600080fd5b610430886103a2565b965060208801359550610445604089016103a2565b9450606088013593506080880135925060a088013567ffffffffffffffff8082111561047057600080fd5b818a0191508a601f83011261048457600080fd5b81358181111561049357600080fd5b8b60208285010111156104a557600080fd5b60208301945080935050505092959891949750929550565b8183823760009101908152919050565b733d60ad80600a3d3981f3363d3d373d3d3d363d7360601b8152606083901b6bffffffffffffffffffffffff191660148201526e5af43d82803e903d91602b57fd5bf360881b60288201528151600090815b8181101561053c576020818601810151603786840101520161051f565b5060009201603701918252509291505056fea2646970667358221220f8a7f3864dd41d364aef1946c9aa96b4986a12aee84404dc7585a1709e0a370a64736f6c63430008100033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100365760003560e01c80635e9bc5361461003b578063da7323b31461006a575b600080fd5b61004e6100493660046103be565b61007d565b6040516001600160a01b03909116815260200160405180910390f35b61004e61007836600461040c565b6100ac565b60008061008d87878787876101f2565b805160209091012090506100a1838261025b565b979650505050505050565b6000806100bc89898989896101f2565b905060006100d48660001b838051906020012061025b565b90506001600160a01b0381163b156100ef5791506100a19050565b6100fb6000878461026f565b90508315610185576000816001600160a01b0316868660405161011f9291906104bd565b6000604051808303816000865af19150503d806000811461015c576040519150601f19603f3d011682016040523d82523d6000602084013e610161565b606091505b505090508061018357604051630337323560e31b815260040160405180910390fd5b505b604080516001600160a01b0383811682528c811660208301528183018c90528a1660608201526080810189905260a0810188905290517f07fba7bba1191da7ee1155dcfa0030701c9c9a9cc34a93b991fc6fd0c9268d8f9181900360c00190a19998505050505050505050565b60408051602081018390529081018590526001600160a01b0384166060828101919091526080820184905290869060a00160408051601f198184030181529082905261024192916020016104cd565b604051602081830303815290604052905095945050505050565b6000610268838330610378565b9392505050565b6000834710156102c65760405162461bcd60e51b815260206004820152601d60248201527f437265617465323a20696e73756666696369656e742062616c616e636500000060448201526064015b60405180910390fd5b81516000036103175760405162461bcd60e51b815260206004820181905260248201527f437265617465323a2062797465636f6465206c656e677468206973207a65726f60448201526064016102bd565b8282516020840186f590506001600160a01b0381166102685760405162461bcd60e51b815260206004820152601960248201527f437265617465323a204661696c6564206f6e206465706c6f790000000000000060448201526064016102bd565b6000604051836040820152846020820152828152600b8101905060ff815360559020949350505050565b80356001600160a01b03811681146103b957600080fd5b919050565b600080600080600060a086880312156103d657600080fd5b6103df866103a2565b9450602086013593506103f4604087016103a2565b94979396509394606081013594506080013592915050565b600080600080600080600060c0888a03121561042757600080fd5b610430886103a2565b965060208801359550610445604089016103a2565b9450606088013593506080880135925060a088013567ffffffffffffffff8082111561047057600080fd5b818a0191508a601f83011261048457600080fd5b81358181111561049357600080fd5b8b60208285010111156104a557600080fd5b60208301945080935050505092959891949750929550565b8183823760009101908152919050565b733d60ad80600a3d3981f3363d3d373d3d3d363d7360601b8152606083901b6bffffffffffffffffffffffff191660148201526e5af43d82803e903d91602b57fd5bf360881b60288201528151600090815b8181101561053c576020818601810151603786840101520161051f565b5060009201603701918252509291505056fea2646970667358221220f8a7f3864dd41d364aef1946c9aa96b4986a12aee84404dc7585a1709e0a370a64736f6c63430008100033",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {
+      "account(address,uint256,address,uint256,uint256)": {
+        "details": "Returns the computed address of a token bound account",
+        "returns": {
+          "_0": "The computed address of the account"
+        }
+      },
+      "createAccount(address,uint256,address,uint256,uint256,bytes)": {
+        "details": "Creates a token bound account for an ERC-721 token. If account has already been created, returns the account address without calling create2. If initData is not empty and account has not yet been created, calls account with provided initData after creation. Emits AccountCreated event.",
+        "returns": {
+          "_0": "the address of the account"
+        }
+      }
+    },
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [],
+    "types": null
+  }
+}
